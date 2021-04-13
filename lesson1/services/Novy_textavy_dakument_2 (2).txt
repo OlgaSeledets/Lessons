@@ -1,0 +1,59 @@
+#include <sstream>
+...
+void new_DB (vector<Minecraft> &x) {
+	ofstream TXTMain("D:\TXTMain.txt");
+	...
+	for (int i = 0; i < x.size(); i++)
+	{
+		TXTMain << x[i].name << endl;
+		TXTMain << x[i].license << endl;
+		TXTMain << x[i].version << endl;
+		TXTMain << x[i].ip << endl;
+		TXTMain << x[i].numberPl << endl << endl;
+	}
+	TXTMain.close();
+}
+
+void load_DB(vector <Minecraft>& x, Minecraft* servers)
+	{
+		ifstream TXTMain("D:\TXTMain.txt");
+		if (!TXTMain.is_open())
+		{
+			cout << "Файл не может быть открыт!\n";
+		}
+		else
+		{
+			while (!TXTMain.eof())
+			{
+				string str;
+				int str1;
+
+				getline(TXTMain, str);
+				if (str == "\0")
+				{
+					break;
+				}
+				servers->name = str;
+
+				getline(TXTMain, str);
+				servers->license = str;
+
+				getline(TXTMain, str);
+				servers->version = str;
+
+				getline(TXTMain, str);
+				servers->ip = str;
+
+				getline(TXTMain, str);
+				stringstream s(str);
+				s >> str1;
+				servers->numberPl = str1;
+
+				getline(TXTMain, str);
+
+				x.push_back(server);
+		}
+			cout << "Операция выполнена успешно!" << endl;
+			TXTMain.close();
+	}
+}

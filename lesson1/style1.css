@@ -1,0 +1,244 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    overflow: hidden;
+}
+
+body {
+    background-image: url("https://hcommons.org/app/uploads/sites/1000618/2017/07/cropped-cropped-3881185-big-data-wallpaper-1.jpg"); 
+    background-size: cover;
+}
+
+.b {
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+    width: 290px;
+    height: 410px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 70 440;
+    box-shadow: 0 4px 46px black;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    height: 110px;
+    margin-top: -22px;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #668dcd;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.centre {
+    width: 100%;
+    position: relative;
+    height: 285px;
+    margin-top: 0px;
+    padding: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.title {
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.sub {
+    color: white;
+    font-size: 16px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.image_back {
+    width: 288px;
+    height: 355px;
+    display: block;
+}
+
+.bottom {
+    width: 100%;
+    position: relative;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_main {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.nav {
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color .2s linear;
+    position: relative;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: darkgray;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav_link:hover {
+    color: darkgray;
+}
+
+.nav_link:hover:after {
+    display: block;
+}
+
+.intro {
+    width: 100%;
+    margin: 60px 540px;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 3px solid white;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.btn:hover {
+    background: darkgray;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section_header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section_suptitle {
+    font-family: 'Kaushari Script', cursive;
+    font-size: 24px;
+    color: white;
+}
+
+.section_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.inf {
+    display: flex;
+}
+
+.services_text{
+    font-size: 15px;
+    color: white;
+}
+
+.continf{
+    width: 90%;
+    position: absolute;
+    height: 160px;
+    margin-top: -95px;
+    padding: 35px;
+    background-color: #668dcd;
+    left: 110;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
