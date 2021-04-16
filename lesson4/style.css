@@ -1,5 +1,12 @@
 body {
-    background-image: url("img/background.jpg"); 
+    background-image: url("img/background.jpg");
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .note {
@@ -15,9 +22,8 @@ a {
 }
 
 .image {
-    width: 50%;
-    height: 30%;
-    margin: 0px 600px;
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 200px;
 }
 
@@ -43,8 +49,12 @@ h2 {
     font-weight: bold;
 }
 
-.italic {
+.styleItalic {
     font-style: italic;
+}
+
+.styleBold {
+    font-weight: bold;
 }
 
 p {
@@ -73,7 +83,8 @@ li {
 }
 
 .list {
-    position: fixed;
+    right: 0;
+    position: absolute;
 }
 
 .indent {
