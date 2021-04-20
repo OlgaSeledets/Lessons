@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    max-width: 1870px;
+    margin: 0 auto;
+
+}
+
+.instruments {
+    width: 1870px;
+    height: 720px;
+    background-color: #dee2e6;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
