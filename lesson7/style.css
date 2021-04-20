@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+}
+
+.products {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+
+.data {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instrument {
+    margin-bottom: 100px;
+}
+
+.instrument_item{
+    font-size: 14px;
+}
+
+.cost {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    padding: 16px 50px;
+    font-size: 16px;
+    border: 1px solid #25bbc1;
+    background: none;
+    color: #25bbc1;
+}
