@@ -1,0 +1,124 @@
+body {
+    font-family: Tahoma;
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.section_first {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+    margin-top: 70px;
+}
+
+.section_second {
+    background: rgba(108, 108, 108, 0.3); 
+    padding-bottom: 100px;
+    padding-top: 85px;
+    margin-bottom: 90px;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.book {
+    width: 404px;
+    height: 630px;
+}
+
+.main {
+    width: 555px;
+    height: 460px;
+    margin-top: 40px;
+}
+
+.button {
+    height: 70px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #ec744a;
+    border: 1px solid #ec744a;
+    cursor: pointer;
+}
+
+.button1 {
+    width: 175px;
+    border: none;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #fa865c;
+    transition-duration: 7ms;
+}
+
+.button2 {
+    width: 285px;
+    background: none;
+    color: #ec744a;
+    margin-left: 40px;
+}
+
+.button2:hover {
+    color: gray;
+    transition-duration: 7ms;
+    border: 1px solid gray;
+}
+
+.main_text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.operation {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.photos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 115px;
+    margin-top: 70px;
+}
+
+.photos-item {
+    width: 261px;
+    height: 261px;
+}
+
+.photo {
+    margin-bottom: 40px;
+}
