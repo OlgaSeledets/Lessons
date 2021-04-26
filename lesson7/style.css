@@ -1,16 +1,21 @@
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
 .container {
     width: 100%;
 }
 
 .products {
-    background-color: #f9f9f9;
-    text-align: center;
+    margin-top: 100px;
 }
 
 .name {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 120px;
+    text-align: center;
 }
 
 .data {
@@ -22,6 +27,7 @@
 
 .instrument {
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .instrument_item{
@@ -36,9 +42,13 @@
 .button {
     width: 200px;
     height: 55px;
-    padding: 16px 50px;
     font-size: 16px;
     border: 1px solid #25bbc1;
     background: none;
     color: #25bbc1;
+}
+
+.img {
+    width: 263px;
+    height: 210px;
 }
