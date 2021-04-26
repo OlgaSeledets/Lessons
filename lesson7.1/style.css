@@ -122,3 +122,21 @@ body {
 .photo {
     margin-bottom: 40px;
 }
+
+@media (max-width: 1230px) {
+    .button2 {
+        width: 255px;
+    }
+    .main {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 990px) {
+    .button1 {
+        margin-bottom: 10px;
+    }
+    .button2 {
+        margin-left: 0;
+    }
+}
