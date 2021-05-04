@@ -174,11 +174,31 @@ body {
 .photos {
     width: 362px;
     height: 254px;
-    margin: 36px 28px;
+    margin: 18px 14px;
 }
 
 .people-wrap {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media (max-width: 990px) {
+    .btn-success {
+        margin-bottom: 10px;
+        width: 214px;
+    }
+    .btn-primary{
+        width: 214px;
+    }
+    .buttons {
+        display: flex;
+        flex-flow: column;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+    }
+    .main-image {
+        margin-top: 40px;
+    }
 }
