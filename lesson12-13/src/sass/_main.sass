@@ -1,0 +1,106 @@
+.title
+    font-family: 'Museo Sans Cyrl'
+    font-size: 41px
+    font-weight: 700
+    margin-top: 0
+    margin-bottom: 45px
+    color: $text-color
+
+.main
+    background-color: $container-color
+    &-block
+        display: flex
+        justify-content: space-between
+    &-text 
+        width: 50%
+        padding-top: 80px
+    &-inf
+        display: flex
+        justify-content: left
+        flex-direction: column
+        
+        &-item  
+            display: flex
+            align-items: center
+           
+        &__text
+           margin-bottom: 15px
+           margin-left: 30px
+
+        &__img
+            width: 20px
+            height: 20px
+        
+    &-image
+        width: 570px
+        height: 488px
+        margin-top: 45px
+        margin-bottom: 45px
+
+.subtitle
+    font-size: 20px
+    font-weight: 700
+    margin-bottom: 65px
+    margin-top: 0
+    display: block
+    color: $text-color
+
+.text
+    display: flex
+    flex-direction: column
+
+.services
+    background: url("../img/services_image.png") no-repeat
+    background-position: center right
+    background-size: contain
+    padding: 90px 0
+    position: relative
+
+    &::before
+        content: ''
+        width: 50%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #fff
+    
+    &-block
+        display: flex
+        justify-content: space-between
+        position: relative
+    
+    &-title
+        font-size: 24px
+        font-weight: 700
+        color: $text-color
+
+    &-image
+        width: 959px
+        height: 595px
+
+    &-text 
+        width: 50%
+
+    &-subtitle
+        font-size: 16px
+        font-weight: 300
+
+    &-data
+        display: flex
+        justify-content: space-between
+
+.input_data
+    padding: 25px 
+    width: 240px
+    height: 65px
+    border: 1px solid $input-color
+    border-radius: 10px
+
+.btn
+    width: 495px
+    height: 70px
+    background-color: $btn-color
+    border-radius: 10px
+    border: none
+    margin-top: 30px
